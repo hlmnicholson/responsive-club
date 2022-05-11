@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,700&family=Roboto:ital@0;1&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Lora', 'Roboto', sans-serif;
+  font-style: italic;
+}
+
