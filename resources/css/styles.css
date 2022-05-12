@@ -13,16 +13,37 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   /* background-color: #5ADBFF; */
-  background-color: #ffde4a74;
+  /* background-color: #ffde4a74; */
+  background-color: #fe90007a;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Lora', 'Roboto', sans-serif;
   font-style: italic;
 }
 
+/* h2 {
+  font-size: 4rem;
+} */
+
+h3 {
+  font-size: 5rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
 p {
   font-size: 2rem;
+}
+
+.highlight {
+  color: #094074;
 }
 
 nav {
@@ -54,7 +75,7 @@ ul {
 
 #banner h1 {
   text-align: center;
-  font-size: 8rem;
+  font-size: 9rem;
   color: #ffdd4a; 
   background-color: #05668d99;
   padding: 1rem 0;
@@ -82,6 +103,7 @@ main {
   background-color: white;
   max-width: 75%;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 section {
@@ -105,4 +127,8 @@ img {
   /* height: 100%; */
   object-fit: cover;
   border: 2px solid red;
+}
+
+.mapouter {
+  margin: auto;
 }
