@@ -299,4 +299,10 @@ footer {
     margin: 2%;
     grid-area: d;
   }
+
+  .mapouter {
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 5%;
+  }
 }
