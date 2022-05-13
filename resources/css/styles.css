@@ -55,10 +55,6 @@ figcaption {
 nav {
   padding: 1rem; 
   background-color: #00577c;
-
-  @media (min-width: 600px) {
-    padding: 2rem;
-  }
 }
 
 ul {
@@ -79,13 +75,17 @@ ul {
   width: 100%;
 }
 
-#banner h1 {
+#heading {
+  background-color: #0940749e;
+}
+
+#heading h1 {
   text-align: center;
   font-size: 9rem;
   color: #fff5cb; 
-  background-color: #0940749e;
   padding: 1rem 0;
   margin: auto;
+  max-width: 80%;
 }
 
 nav a {
@@ -191,5 +191,67 @@ footer {
   color: #000080;
   border-top: 2rem solid #00577c;
   border-bottom: 2rem solid #00577c;
+}
 
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 2%;
+  }
+
+  #banner {
+    padding: 15% 0;
+  }
+
+  #banner h1 {
+    font-size: 5rem;
+    padding: 0 2rem 0 2rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+  
+  h4 {
+    font-size: 3rem;
+  }
+
+  h5 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.75rem;
+    margin: 0;
+  }
+
+  ul {
+    font-size: 1.5rem;
+  }
+
+  main {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  section {
+    padding: 0rem;
+    margin: 0rem 0rem 1rem 0rem;
+
+  }
+
+  .description {
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .gallery {
+    display: block;
+    margin: 1rem auto;
+    max-width: 75%;
+  }
+  
+  img {
+    border: 1px solid rgba(0, 166, 255, 0.567);
+  
+  }
 }
