@@ -43,7 +43,7 @@ p {
 }
 
 .highlight {
-  /* color: blue; */
+  color: blue;
 }
 
 nav {
@@ -103,7 +103,7 @@ main {
   background-color: white;
   max-width: 75%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2.5rem 4rem;
 }
 
 section {
@@ -131,4 +131,16 @@ img {
 
 .mapouter {
   margin: auto;
+}
+
+footer {
+  /* background-color: #00577c; */
+  background-color: white;
+  text-align: center;
+  padding: 2rem 0;
+  /* color: antiquewhite; */
+  color: navy;
+  border-top: 2rem solid #00577c;
+  border-bottom: 2rem solid #00577c;
+
 }
