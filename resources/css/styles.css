@@ -29,6 +29,7 @@ h1, h2, h3, h4 {
 
 h3 {
   font-size: 5rem;
+  margin-bottom: 1rem;
 }
 
 h4 {
@@ -108,11 +109,55 @@ main {
 }
 
 section {
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 3rem auto;
   /* max-width: 75%; */
 }
 
 /* ADD MEDIA QUERY FOR WIDTH */
+
+#calendar {
+/* change colour */
+  border: 1px solid #0086bf;;
+  margin: 2rem auto;
+  padding-bottom: 2rem;
+  max-width: 90%;
+}
+
+.month {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-areas: 
+    "a a a a a a a a"
+    "b c c d d d d d";
+  margin-bottom: 1rem;
+  
+}
+
+.item1 {
+  grid-area: a;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ffdd4a;
+  background-color: #ffde4a8d;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.item2 {
+  grid-area: b;
+  padding-left: 2rem;
+}
+
+.item3 {
+  grid-area: c;
+}
+
+.item4 {
+  grid-area: d;
+}
+
+.no-events {
+  font-style: italic;
+}
 
 .gallery {
   display: grid;
