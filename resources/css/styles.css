@@ -212,11 +212,11 @@ footer {
   }
   
   h4 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   h5 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   p {
@@ -229,8 +229,8 @@ footer {
   }
 
   main {
-    max-width: 95%;
-    margin: auto;
+    max-width: max-content;
+    margin: 0;
   }
 
   section {
@@ -246,12 +246,57 @@ footer {
 
   .gallery {
     display: block;
-    margin: 1rem auto;
+    margin: 2rem auto;
     max-width: 75%;
+  }
+
+  figure {
+    margin-bottom: 1rem;
   }
   
   img {
     border: 1px solid rgba(0, 166, 255, 0.567);
   
+  }
+
+  #calendar {
+    border: 1px solid #0086bf;;
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+    max-width: 100%;
+  }
+
+  .month {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+      "a a a a"
+      "b c c c"
+      "d d d d";
+    margin-bottom: 1rem;
+    
+  }
+  
+  .item1 {
+    grid-area: a;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ffdd4a;
+    background-color: #ffde4a8d;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .item2 {
+    grid-area: b;
+    padding-left: 1rem;
+  }
+  
+  .item3 {
+    grid-area: c;
+  }
+  
+  .item4 {
+    margin: 2%;
+    grid-area: d;
   }
 }
