@@ -13,8 +13,9 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   /* background-color:#fff5cb;  */
-  background-color:#4aeadd5f; 
-
+  /* background-color:#4aeadd5f;  */
+  background: rgb(0,74,89);
+background: radial-gradient(circle, rgba(0,74,89,1) 24%, rgba(0,97,138,1) 50%, rgba(30,183,234,1) 82%);
 }
 
 h1, h2, h3, h4 {
@@ -43,7 +44,7 @@ p {
 }
 
 .highlight {
-  color: blue;
+  color: #0086bf;
 }
 
 nav {
