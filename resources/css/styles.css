@@ -30,6 +30,7 @@ h1, h2, h3, h4 {
 h3 {
   font-size: 5rem;
   margin-bottom: 1rem;
+  color: navy;
 }
 
 h4 {
@@ -109,11 +110,15 @@ main {
 }
 
 section {
-  margin: 0 auto 3rem auto;
+  margin: 0 auto 4rem auto;
   /* max-width: 75%; */
 }
 
 /* ADD MEDIA QUERY FOR WIDTH */
+
+.description {
+  margin: 2rem 4rem 0 4rem;
+}
 
 #calendar {
 /* change colour */
