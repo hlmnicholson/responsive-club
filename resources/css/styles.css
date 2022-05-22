@@ -55,10 +55,6 @@ figcaption {
 nav {
   padding: 1rem; 
   background-color: #00577c;
-
-  @media (min-width: 600px) {
-    padding: 2rem;
-  }
 }
 
 ul {
@@ -79,13 +75,17 @@ ul {
   width: 100%;
 }
 
-#banner h1 {
+#heading {
+  background-color: #0940749e;
+}
+
+#heading h1 {
   text-align: center;
   font-size: 9rem;
   color: #fff5cb; 
-  background-color: #0940749e;
   padding: 1rem 0;
   margin: auto;
+  max-width: 80%;
 }
 
 nav a {
@@ -112,8 +112,6 @@ main {
 section {
   margin: 0 auto 3rem auto;
 }
-
-/* ADD MEDIA QUERY FOR WIDTH */
 
 .description {
   margin: 2rem 5rem 0 5rem;
@@ -191,5 +189,118 @@ footer {
   color: #000080;
   border-top: 2rem solid #00577c;
   border-bottom: 2rem solid #00577c;
+}
 
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 2%;
+  }
+
+  #banner {
+    padding: 15% 0;
+  }
+
+  #banner h1 {
+    font-size: 5rem;
+    padding: 0 2rem 0 2rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+  
+  h4 {
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1.75rem;
+    margin: 0;
+  }
+
+  ul {
+    font-size: 1.5rem;
+  }
+
+  main {
+    max-width: max-content;
+    margin: 0;
+  }
+
+  section {
+    padding: 0rem;
+    margin: 0rem 0rem 1rem 0rem;
+
+  }
+
+  .description {
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .gallery {
+    display: block;
+    margin: 2rem auto;
+    max-width: 75%;
+  }
+
+  figure {
+    margin-bottom: 1rem;
+  }
+  
+  img {
+    border: 1px solid rgba(0, 166, 255, 0.567);
+  
+  }
+
+  #calendar {
+    border: 1px solid #0086bf;;
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+    max-width: 100%;
+  }
+
+  .month {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+      "a a a a"
+      "b c c c"
+      "d d d d";
+    margin-bottom: 1rem;
+    
+  }
+  
+  .item1 {
+    grid-area: a;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ffdd4a;
+    background-color: #ffde4a8d;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .item2 {
+    grid-area: b;
+    padding-left: 1rem;
+  }
+  
+  .item3 {
+    grid-area: c;
+  }
+  
+  .item4 {
+    margin: 2%;
+    grid-area: d;
+  }
+
+  .mapouter {
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 5%;
+  }
 }
