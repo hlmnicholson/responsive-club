@@ -1,6 +1,6 @@
 # responsive-club
 
-This project is a homepage for the fictional swimming group called "Leiden", built in HTML & CSS and responsively styled using css grid and responsive units of measurement such as %, rem and em.
+This project is a homepage for the fictional swimming group called "Leiden Swimmers", built in HTML & CSS and responsively styled using css grid and responsive units of measurement such as %, rem and em.
 
 ## Table of Contents
 
